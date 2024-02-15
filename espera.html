@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpecBear - Próximamente</title>
+    <link rel="stylesheet" href="Assets/css/espera.css">
+    <link rel="icon" href="Assets/images/icon-specbear.png">
+</head>
+<body>
+    <div class="container">
+        <img id="logoImage" src="https://specbear.online/Assets/images/pagina-espera.png" alt="Logo de SpecBear" class="logo">
+        <div id="videoContainer" class="video-container" style="display:none; width: 50vw; max-width: 300px;">
+            <video id="backgroundVideo" src="https://specbear.online/Assets/images/specbear-pro.mp4" autoplay muted loop style="width: 100%; height: auto;"></video>
+        </div>
+        <h1>SpecBear - Próximamente</h1>
+        <div class="progress-bar-container">
+            <div class="loading-text">Loading<span class="dot-1">.</span><span class="dot-2">.</span><span class="dot-3">.</span></div>
+            <div class="progress-bar"></div>
+        </div>
+        <div class="countdown">
+            <div class="countdown-item">
+                <div id="days" class="fondo"></div>
+                <div class="countdown-label">Días</div>
+            </div>
+            <div class="countdown-item">
+                <div id="hours" class="fondo"></div>
+                <div class="countdown-label">Horas</div>
+            </div>
+            <div class="countdown-item">
+                <div id="minutes" class="fondo"></div>
+                <div class="countdown-label">Minutos</div>
+            </div>
+            <div class="countdown-item">
+                <div id="seconds" class="fondo"></div>
+                <div class="countdown-label">Segundos</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Assets/js/espera.js"></script>
+</body>
+</html>
